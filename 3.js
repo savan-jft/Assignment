@@ -4,12 +4,13 @@
 
 var str = 'Hi my name is Savan';
 
-str = str.split(' ');
-
+str = str.split(' ').reverse();
+console.log(typeof str);
+console.log(str[0])
 let res = [];
-for(let i=0; i<=str.length; i++){
-    console.log(str[i])
-    res = res + str.charAt(i)
 
+for(let i=0; i<=str.length; i++){
+    str[i].reverse();
+    
 }
 console.log(str);

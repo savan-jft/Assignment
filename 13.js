@@ -16,11 +16,12 @@ let temp = [];
 // }
 
 // console.log(arr2)
-temp[0] = arr[0]
+// temp[0] = arr[0]
+
 console.log(temp)
 for(let i=0; i<arr.length; i++){
-    if(arr[i] != temp[i+1]){
-        temp.push(i);
+    if(temp.indexOf(arr[i]) == -1){
+        temp.push(arr[i]);
     }
 }
 
