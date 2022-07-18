@@ -8,7 +8,7 @@ function palindrome(num){
     num = Math.floor(num/10);
     }
     if(n == res){
-       return 1;
+        return 1;
     }
     else{
         return 0;
@@ -22,3 +22,4 @@ while(palindrome(num) == 0){
 }
 
 console.log(num)
+

@@ -14,4 +14,6 @@ arr.sort(function(a, b){
 console.log(arr)
 
 let b = Math.floor(Math.random())
+
+
 console.log(b)
