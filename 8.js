@@ -9,3 +9,4 @@ function fun(num){
 let x = Math.random() * 100;
 fun(x);
 
+hu
